@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/Style.css" />
+  </head>
+  <body>
+    <div class="quoteApp text-center mt-5 overflow-hidden" id="qoutesApp">
+            <h1 class="display-1 fw-bolder">Quote of the Day</h1>
+            <p class="fs-1">Press the button below to recieve a random quote!</p>
+            <button id="quoteButton" onclick="displayQoutes()">New Quote</button>
+            <br>
+            <p class="fs-1" id="getQoute"></p>
+            <p class="fs-1" id="getAuthour"></p>
+    </div>
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/Index.js"></script>
+  </body>
+</html>
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mohamed2192003/Qoute_App.git
+git push -u origin main
